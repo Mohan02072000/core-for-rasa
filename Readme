@@ -1,0 +1,13 @@
+##Readme file###
+This script is aimed to act as an alternative to Rasa core. I donot claim this to be a replacement of rasa core in any way. I wanted to have a function to deliver me the 
+message as a string parsed from the core to my script which seemed to be not possible using the core. So I have written a small file so as to mimic the core. This 
+script is more of a rigid version to the rasa core, and works on flowchat rather than stories.md. One needs to feed the script with prior data for it to work. 
+It works on a domain similar to the domain file of the rasa core, and an actions.py file similar to rasa core with minor changes. Following are the changes to be done to the 
+main domain and action .py files.
+
+
+-In the domain file, every intent needs to be mapped properly with action or utter keyword for it, as it doesnot have a stories.md to work on. I will be working to improve the
+code in future iterations.
+-In the actions file you have to build slot_data={} dict manually for the core to use. One can build a different logic around it, though. one has to build the tracker class as
+well with atleast one function.
+- At the end of the action file you need to create an array of objects of classes to be triggered named obj_arr=[] which is to be imported to the core file.
