@@ -1,0 +1,1833 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi, How is it going?",
+        "intent": "greet_reply",
+        "entities": []
+      },
+      {
+        "text": "How are you doing?",
+        "intent": "greet_reply",
+        "entities": []
+      },
+      {
+        "text": "How do you do?",
+        "intent": "greet_reply",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in Berlin at the moment?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the weather today?",
+        "intent": "weather",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in London today?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Show me what's the weather in Paris",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what is the weather in Vilnius right now?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is the weather?",
+        "intent": "weather",
+        "entities": []
+      },
+      {
+        "text": "Tell me the weather",
+        "intent": "weather",
+        "entities": []
+      },
+      {
+        "text": "Is the weather nice in Barcelona today?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Show me the weather in Dublin, please",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in London",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Lithuania",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Oh, sorry, in Italy",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the weather in Vilnius",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "The weather condition in Italy",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "What is the time now?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "time",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "Can you tell me the time now?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "time",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "What is todays date?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "date",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "Tell me today's date.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "date",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "What's the date?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "date",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": " Whats the weather at Bhubneshwar at the moment?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "Bhubneshwar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": " Whats the weather at Bangalore?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": " Whats the weather at Bhubneshwar?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "Bhubneshwar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather at Rourkela today?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Rourkela",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Play Munni badnaam Hui in youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 22,
+            "value": "Munni badnaam Hui",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about Space Time equiibrium.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 14,
+            "end": 36,
+            "value": "Space Time equiibrium.",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search for free code camp in the internet.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 11,
+            "end": 25,
+            "value": "free code camp",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search for Daily motion.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Daily motion",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is Darwins evolution theory?",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 8,
+            "end": 32,
+            "value": "Darwins evolution theory",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Who is Mahatma Gandhi?",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Mahatma Gandhi",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is a Worm hole?",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Worm hole",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Open MS Word.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "MS Word",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run GTA V.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "GTA V",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play music Astronaught in the ocean.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 11,
+            "end": 35,
+            "value": "Astronaught in the ocean",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play five hundread miles song.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 5,
+            "end": 24,
+            "value": "five hundread miles",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play the movie The Amazing Spiderman.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 15,
+            "end": 36,
+            "value": "The Amazing Spiderman",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play The Dark Knight movie.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "The Dark Knight",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play a song, Everything I want.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 13,
+            "end": 30,
+            "value": "Everything I want",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play in youtube, She moves it like.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 17,
+            "end": 34,
+            "value": "She moves it like",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look for Satisfya in youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Satisfya",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look for W3 schools in the internet.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "W3 schools",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search Call Of Duty on the internet",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Call Of Duty",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search Downloadming.com ",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Downloadming.com",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Open Sleeping dogs please.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "Sleeping dogs",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Please run Need For Speed for me.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 11,
+            "end": 25,
+            "value": "Need For Speed",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Please play, Young Shahruk Khan.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "Young Shahruk Khan",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play me Sugar and Brownies.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "Sugar and Brownies",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "How are you?",
+        "intent": "greet_reply",
+        "entities": []
+      },
+      {
+        "text": "Play me the movie The Tenet.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "The Tenet",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the movie, The Intersteller.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 25,
+            "end": 41,
+            "value": "The Intersteller",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I want to see The Amittyville Horror.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 14,
+            "end": 36,
+            "value": "The Amittyville Horror",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I wanna see the movie Tumbaad",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Tumbaad",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I wanna see Kadwi Hawa.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Kadwi Hawa",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I wanna listen to I Got Summer On my mind.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 18,
+            "end": 41,
+            "value": "I Got Summer On my mind",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I want to hear Never lie to me.",
+        "intent": "music",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "Never lie to me",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play the movie Undisputed 3",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Undisputed 3",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": " Play me the movie The amazing spiderman 2",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 19,
+            "end": 42,
+            "value": "The amazing spiderman 2",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I wanna watch Interstellar.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Interstellar",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play movie Interstellar.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Interstellar",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play me the movie Inception.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Inception",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I wanna see Wanted.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Wanted",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I want to see Pirates Of The Carribean.",
+        "intent": "video",
+        "entities": [
+          {
+            "start": 14,
+            "end": 38,
+            "value": "Pirates Of The Carribean",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run Call Of Duty.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "Call Of Duty",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run Sleeping Dogs.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 17,
+            "value": "Sleeping Dogs",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run Watch Dogs 2",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "Watch Dogs 2",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Open Modern Warfare.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 5,
+            "end": 19,
+            "value": "Modern Warfare",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run Warzone.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Warzone",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Open Pacify.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Pacify",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run Prince Of Persia Warrior within",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 35,
+            "value": "Prince Of Persia Warrior within",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Run Need For Speed Most Wanted.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 4,
+            "end": 30,
+            "value": "Need For Speed Most Wanted",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Open Need For Speed Carbon",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 5,
+            "end": 26,
+            "value": "Need For Speed Carbon",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is Chipko Movement.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "Chipko Movement",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about Chandragupta Maurya.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 14,
+            "end": 33,
+            "value": "Chandragupta Maurya",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Who is Lal Bahadur Sashtri",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 7,
+            "end": 26,
+            "value": "Lal Bahadur Sashtri",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about Baichug Bhutia.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "Baichug Bhutia",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is Theory of Feose.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "Theory of Feose",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about Refractive Index.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "Refractive Index",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is Electrolysis.",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "Electrolysis",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look for pirate bay.",
+        "intent": "data",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "pirate bay",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Five Hundread Miles.",
+        "intent": "data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Five Hundread Miles.",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "The conjuring Devil made me do it.",
+        "intent": "data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "The conjuring Devil made me do it.",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Proper patola by Diljit dosant.",
+        "intent": "data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "Proper patola by Diljit dosant.",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search youtube for Bebo.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "Bebo",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look into youtube for Rasa tutorials.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "Rasa tutorials",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search for High Heels by honey singh  in youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 11,
+            "end": 37,
+            "value": "High Heels by honey singh ",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play The party song form youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 19,
+            "value": "The party song",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play from youtube Jine mera Dill luteya.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 18,
+            "end": 39,
+            "value": "Jine mera Dill luteya",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Jawani jaaneman hasena dil ruba.",
+        "intent": "data",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "Jawani jaaneman hasena dil ruba",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "hey mara tell me about Call Of Duty Modern Warfare",
+        "intent": "wikipedia",
+        "entities": [
+          {
+            "start": 23,
+            "end": 51,
+            "value": "Call Of Duty Modern Warfare",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hello. Play me Sugar and Brownies from youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 15,
+            "end": 33,
+            "value": "Sugar and Brownies",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey. Look for Lollipop by lil wayne  in youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 14,
+            "end": 37,
+            "value": "Lollipop by lil wayne  ",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey Mara, search for The conjuring film series from the internet.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 21,
+            "end": 46,
+            "value": "The conjuring film series",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look for game development on the internet.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "game development",
+            "entity": ""
+          }
+        ]
+      },
+      {
+        "text": "Hey, search the internet for Unity.com",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Unity.com",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey, search facebook.com in the internet.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "facebook.com",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey, Google search for Code gladiators.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Code gladiators",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey, Google search about Ubisoft Montereal headquaters.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 25,
+            "end": 54,
+            "value": "Ubisoft Montereal headquaters",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Google search about Nora fatehis lifestyle",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 20,
+            "end": 42,
+            "value": "Nora fatehis lifestyle",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search about Amazons ceo jeff bridges on google.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 13,
+            "end": 37,
+            "value": "Amazons ceo jeff bridges",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Google search Pirate bay torrents",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 14,
+            "end": 33,
+            "value": "Pirate bay torrents",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look for how to build a python library youtube on google search.",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 9,
+            "end": 46,
+            "value": "how to build a python library youtube",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey, play I am worth it by Fifth Harmony from youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 10,
+            "end": 40,
+            "value": "I am worth it by Fifth Harmony",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey search for I got summer on my mind on youtube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "I got summer on my mind",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play Lovefool on youtube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Lovefool",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search for Let me down slowly by Alec Benjamin from youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 11,
+            "end": 46,
+            "value": "Let me down slowly by Alec Benjamin",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Play Side to side by Ariana grande from youtube.",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 34,
+            "value": "Side to side by Ariana grande",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is your name?",
+        "intent": "ask_name",
+        "entities": []
+      },
+      {
+        "text": "What should I call you?",
+        "intent": "ask_name",
+        "entities": []
+      },
+      {
+        "text": "Who are you?",
+        "intent": "ask_name",
+        "entities": []
+      },
+      {
+        "text": "What can you do?",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "what are your capabilities?",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "what are the things you can do?",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "Tell me your name",
+        "intent": "ask_name",
+        "entities": []
+      },
+      {
+        "text": "What can you do for me?",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "play animals by Maroon 5 on YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 24,
+            "value": "animals by Maroon 5",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search youtube for Memories by Maroon 5",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 19,
+            "end": 39,
+            "value": "Memories by Maroon 5",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Launch Grand theft Auto 5",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 7,
+            "end": 25,
+            "value": "Grand theft Auto 5",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey, please Launch Call Of Duty Modern Warfare",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 19,
+            "end": 46,
+            "value": "Call Of Duty Modern Warfare",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "GTA 5 launch it.",
+        "intent": "software",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "GTA 5",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey Mara",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello Mara",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Search youtube for brown rang by honey singh",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 19,
+            "end": 44,
+            "value": "brown rang by honey singh",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search youtube for Five Hundread miles by Brothers four",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 19,
+            "end": 55,
+            "value": "Five Hundread miles by Brothers four",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Search intezaar by falak on youtube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "intezaar by falak",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Look for call of duty Activision blizzard on the internet",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 9,
+            "end": 41,
+            "value": "call of duty Activision blizzard",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Hey, google search Pirates of the carribean the curse of the black perl",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 19,
+            "end": 71,
+            "value": "Pirates of the carribean the curse of the black perl",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Se te nota from youtube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Se te nota",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Chameleon by Sandra N on youtube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Chameleon by Sandra N",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "tell me the present time.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "time",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "What is the present time.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "time",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "What time is it.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "time",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "What date is it today?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "date",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "search youtube for Why was german army so effective in world war 2",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 19,
+            "end": 66,
+            "value": "Why was german army so effective in world war 2",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "look into youtube for raw run 70 mph in switzerland",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 22,
+            "end": 51,
+            "value": "raw run 70 mph in switzerland",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "What is the date today?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "date",
+            "entity": "info"
+          }
+        ]
+      },
+      {
+        "text": "Search Youtube for  i am an albatros",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "i am an albatros",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "what can you do?",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "I ment to ask what are your capabilities.",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "i mean what can you do?",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "tell me about you",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "search YouTube for wintergatan marble machine",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 19,
+            "end": 45,
+            "value": "wintergatan marble machine",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "tell me about the weather conditions at Cuttack",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is your purpose",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "what are you made for",
+        "intent": "ask_purpose",
+        "entities": []
+      },
+      {
+        "text": "launch browser and Google search Jasmin Walia",
+        "intent": "browser",
+        "entities": [
+          {
+            "start": 33,
+            "end": 45,
+            "value": "Jasmin Walia",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "serhat durum by La calin on YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "serhat durum by La calin",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "can you play all the stars by otilia on youtube?",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 13,
+            "end": 36,
+            "value": "all the stars by otilia",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Dum Dee Dee Dum by jack Knight on YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Dum Dee Dee Dum by jack Knight",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "play all the stars otilia on youtube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 25,
+            "value": "all the stars otilia",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Pirates of the Caribbean theme on violin YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "Pirates of the Caribbean theme on violin",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I will be moving to Cuttack today I want to know what is the weather there",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "play be free by Vidya vox on YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 25,
+            "value": "be free by Vidya vox",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "Love Me Like you do from YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Love Me Like you do",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "play this girl on YouTube",
+        "intent": "youtube",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "this girl",
+            "entity": "keywords"
+          }
+        ]
+      },
+      {
+        "text": "I will be moving to cuttack. I am worried about the weather there.",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "cuttack",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}
